@@ -1,0 +1,30 @@
+
+
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+
+<dom-module id="d3-drawer">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <p>Hello d3-drawer</p>
+
+    <script>
+      // Extend Polymer.Element base class
+      class D3Drawer extends Polymer.Element {
+
+        static get is() { return 'd3-drawer' }
+
+        connectedCallback() {
+        }
+      }
+
+      // Register custom element definition using standard platform API
+      customElements.define(D3Drawer.is, D3Drawer);
+
+    </script>
+  </template>
+</dom-module>

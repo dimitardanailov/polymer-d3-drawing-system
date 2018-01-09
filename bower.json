@@ -1,0 +1,27 @@
+{
+  "name": "polymer-d3-drawing-system",
+  "homepage": "https://github.com/dimitardanailov/polymer-d3-drawing-system",
+  "authors": [
+    "Dimitar Danailov <dimityr.danailov@gmail.com>"
+  ],
+  "description": "Project is using polymer and d3js to draw circles",
+  "main": "",
+  "keywords": [
+    "Polymer",
+    "Polymer",
+    "2",
+    "d3js"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2"
+  }
+}
