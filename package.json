@@ -1,0 +1,36 @@
+{
+  "name": "polymer-d3-drawing-system",
+  "version": "1.0.0",
+  "description": "project is using polymer v2 and d3 to draw different objects like circle, line",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitardanailov/polymer-d3-drawing-system.git"
+  },
+  "keywords": [
+    "polymer",
+    "polymer v2",
+    "polymer 2",
+    "d3",
+    "polymer and d3js"
+  ],
+  "author": "Dimitar Danailov <dimityr.danailov@gmailc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimitardanailov/polymer-d3-drawing-system/issues"
+  },
+  "homepage": "https://github.com/dimitardanailov/polymer-d3-drawing-system#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/register": "^7.0.0-beta.37",
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
