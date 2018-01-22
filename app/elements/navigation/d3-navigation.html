@@ -1,0 +1,26 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="d3-navigation">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+	Navigation bar
+
+  </template>
+  <script>
+    // Extend Polymer.Element base class
+    class D3Navigation extends Polymer.Element {
+      static get is() { return 'd3-navigation' }
+
+      connectedCallback() {
+        super.connectedCallback();
+      }
+    }
+    // Register custom element definition using standard platform API
+    customElements.define(D3Navigation.is, D3Navigation);
+  </script>
+</dom-module>
