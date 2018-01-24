@@ -4,21 +4,25 @@
   <template>
     <style>
       :host {
+        position: relative;
+
         display: block;
       }
     </style>
 
 	Coordinate system
 
+	<svg id="d3-coordinate-system" />
+
   </template>
   <script>
     // Extend Polymer.Element base class
-    class D3CoordinateSystem extends Polymer.Element {
-      static get is() { return 'd3-coordinate-system' }
+	class D3CoordinateSystem extends Polymer.Element {
+		static get is() { return 'd3-coordinate-system' }
 
-      connectedCallback() {
-        super.connectedCallback();
-      }
+		connectedCallback() {
+			super.connectedCallback();
+		}
     }
     // Register custom element definition using standard platform API
     customElements.define(D3CoordinateSystem.is, D3CoordinateSystem);
