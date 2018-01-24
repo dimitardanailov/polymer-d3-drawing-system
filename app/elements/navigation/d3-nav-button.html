@@ -7,6 +7,13 @@
         position: relative;
 
         display: inline-block;
+      }
+
+      button {
+        position: relative;
+
+        display: inline-block;
+        
         width: 32px;
         height: 32px;
 
@@ -16,7 +23,15 @@
 
         background-color: red;
       }
+
+      button[disabled] {
+        opacity: .4;
+      }
+
+      
     </style>
+
+    <button id="navButton" on-click="changeButtonState"></button>
   </template>
   <script>
     // Extend Polymer.Element base class
@@ -25,12 +40,14 @@
 
       connectedCallback() {
         super.connectedCallback();
-
-        this.addEventListener('click', this._changeButtonState.bind(this));
       }
 
-      _changeButtonState() {
-        alert('clicked');
+      changeButtonState() {
+        this.$.navButton.disabled = true;
+      }
+
+      _revertDefaultStyle() {
+        this.disabled = false;
       }
     }
     // Register custom element definition using standard platform API
